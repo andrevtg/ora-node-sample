@@ -1,0 +1,21 @@
+{
+  "name": "ora-node-samples",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Exemplo de conexão com Oracle cloud DB com wallets em Node.js",
+  "author": "Andre Fernandes <andre@vertigo.com.br>",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --debug=5858",
+    "start-watch": "nodemon index.js --inspect=0.0.0.0:9229",
+    "start-wait-debugger": "nodemon index.js --inspect-brk=0.0.0.0:9229"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "loopback-connector-oracle": "^4.5.0",
+    "oracledb": "^4.0"
+  },
+  "devDependencies": {
+  }
+}

@@ -12,7 +12,7 @@
     "start-wait-debugger": "nodemon index.js --inspect-brk=0.0.0.0:9229"
   },
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "loopback-connector-oracle": "^4.5.0",
     "oracledb": "^4.0"
   },
